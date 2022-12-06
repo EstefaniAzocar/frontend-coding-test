@@ -1,0 +1,21 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0;
+    background-color: bisque;
+
+}
+
+.viewListPeople{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    width: 90%;
+}
