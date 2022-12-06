@@ -1,0 +1,26 @@
+.itemPeople{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 250px;
+    justify-content: center;
+    padding: 5px;
+    width: 200px;
+
+}
+
+.image{
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.name, .age, .occupation {
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+  }
