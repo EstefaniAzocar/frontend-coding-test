@@ -1,0 +1,114 @@
+.viewPeople{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100hv;
+    background-color: bisque;
+}
+
+.container_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 30PX;
+    background-color: rgb(237, 215, 215);
+
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 28px; 
+}
+
+.card{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 320px;
+    justify-content: center;
+    padding: 5px;
+    width: 220px;
+
+}
+
+.image{
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fullName, .nickName, .age, .occupation, .gender {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.editProfile{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(118, 113, 113);
+}
+
+.container_tasks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.viewtasks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+    width: 90%;
+}
+.btnHome{
+    top: 20px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    z-index: 3;
+    position: absolute;
+    padding: 0;
+}
+
+@media(max-width:955px){
+    .viewPeople{
+        flex-direction: column;
+       
+
+    }
+    .container_description{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .container_tasks{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+   
+}

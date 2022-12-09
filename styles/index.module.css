@@ -10,12 +10,31 @@
 
 }
 
-.viewListPeople{
+.order{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+.orderTitle{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.listPeople{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     justify-items: center;
     padding: 20px;
-    width: 90%;
+    width: 100%;
 }

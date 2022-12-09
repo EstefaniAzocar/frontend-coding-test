@@ -1,0 +1,49 @@
+.containerCard{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 160px;
+    justify-content: center;
+    padding: 5px;
+    width: 250px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title, .description, .startDate, .endDate, .state{
+    font-family: Roboto;
+    margin: 0;
+}
+
+
+.btnsTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.btnState{
+    text-decoration: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(237, 215, 215);
+}
+
+.btnEdit{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(118, 113, 113)
+}

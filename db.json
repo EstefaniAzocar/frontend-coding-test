@@ -21,7 +21,7 @@
     {
       "id": 3,
       "fullName": "Bob Johnson",
-      "age": 45,
+      "age": "45",
       "occupation": "Teacher",
       "nickname": "Bobby",
       "gender": "Male",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "fullName": "Samantha Taylor",
-      "age": 26,
+      "age": "26",
       "occupation": "Graphic Designer",
       "nickname": "Sam",
       "gender": "Female",
@@ -159,9 +159,9 @@
       "id": 8,
       "title": "Task 8",
       "description": "This is the eighth task on the list.",
-      "completed": true,
+      "completed": "false",
       "startDate": "2022-12-04",
-      "endDate": "2022-12-08",
+      "endDate": "2022-12-16",
       "personId": 8
     },
     {
@@ -248,9 +248,9 @@
       "id": 18,
       "title": "Task 18",
       "description": "This is the eighteenth task on the list.",
-      "completed": false,
+      "completed": "true",
       "startDate": "2022-12-04",
-      "endDate": null,
+      "endDate": "2022-12-23",
       "personId": 8
     },
     {
